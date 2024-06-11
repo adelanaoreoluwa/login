@@ -134,9 +134,14 @@ form {
   padding: 20px;
   border-radius: 5px;
   border: 1px solid var(--grayish-blue);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
 }
 
-.right-form :hover{
+.right-form :hover
+.right-form : focus{
     border: 1px solid blueviolet;
     transition-delay: 0.3s;
     outline: none;
