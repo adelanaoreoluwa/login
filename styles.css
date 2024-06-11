@@ -133,7 +133,7 @@ form {
   margin-right: auto;
   padding: 20px;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 1px solid var(--grayish-blue);
 }
 
 .right-form :hover{
